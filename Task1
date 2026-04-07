@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdurahman.ncc.com</title>
+    <style>
+        .div{
+
+        }
+        .name{
+            text-transform: uppercase;
+            text-shadow:black;
+            font-style: italic;
+        }
+        .pic{
+            width: 300px;
+            height: 300px;
+            border-radius:500px;
+            margin: ;
+            ;
+        }
+        .but{
+            padding: 15px 40px 15px 40px;
+            border-radius: 8px;
+            background-color: green;
+            color:;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .input{
+            width: 200px;
+            border-radius: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div">
+    <h1>
+        Abdurahman Siraj
+    </h1>
+    <p>
+        I am <span class="name"><b>Abdurahman</b></span> a 2nd <b></b>year CSE student at ASTU.<i> I am learning web development in a Bootcamp hosted by NCC jemea.</i>
+    </p> 
+    <img src="Thumbnail2/rayul-_M6gy9oHgII-unsplash.jpg" alt="This is me in 1880. " class="pic">
+        <h3>Skills and Hobbies</h3>
+    <ul>
+        <li>
+            HTML
+        </li>
+        <li>
+            CSS
+        </li>
+        <li>
+            Javascript
+        </li>
+        <li>
+            BOOK
+        </li>
+        <li>
+            GYM
+        </li>
+    </ul>
+
+    <ol>
+        <li>
+            OOP
+        </li>
+        <li>
+            Database
+        </li>
+        <li>
+            DAA
+        </li>
+        <li>
+            Linear algebra
+        </li>
+    </ol>
+
+    <table border="1">
+        <tr>
+            <th>Course Name</th>
+            <th>Year and semester</th>
+            <th>grade</th>
+        </tr>
+        <tr>
+            <td>
+                OOP
+            </td>
+            <td>
+                2nd year 2nd semester
+            </td>
+            <td>
+                A+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Database
+            </td>
+            <td>
+                2nd year 2nd semester
+            </td>
+            <td>
+                A
+            </td>
+        </tr>
+        <tr>
+            <td>
+                DAA
+            </td>
+            <td>
+                2nd year 2nd semester
+            </td>
+            <td>
+                A-
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Linear
+            </td>
+            <td>
+                2nd year 2nd semester
+            </td>
+            <td>
+                B+
+            </td>
+        </tr>
+    </table>
+
+    <form action="submit_form.php">
+        <label for="Name" name="name" >Name:</label>
+        <input type="text" placeholder="Enter your Name!" class="input" required>
+
+        <label for="email">Email:</label>
+        <input type="text" placeholder="Email" class="input" required>
+
+        <label for="Message">Message:</label>
+        <input type="text" placeholder="got anything to say?" class="input">
+
+        <button type="submit" class="but">Submit</button>
+    </form>
+    
+    
+    </div>
+</body>
+
+</html>
